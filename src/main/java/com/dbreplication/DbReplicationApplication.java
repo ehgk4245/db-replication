@@ -6,10 +6,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @SpringBootApplication
 @EnableJpaAuditing
-public class DbReflicationApplication {
+public class DbReplicationApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DbReflicationApplication.class, args);
+        SpringApplication.run(DbReplicationApplication.class, args);
     }
 
 }
